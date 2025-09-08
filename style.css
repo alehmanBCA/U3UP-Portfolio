@@ -1,0 +1,66 @@
+/* Style the entirety of the welcome screen */
+.welcome-screen{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:1275px;
+    height:600px;
+    background-color: rgba(40, 40, 40, 0.88);
+}
+
+/* Style the 'Welcome!' text */
+.welcome-text {
+    position:absolute;
+    font-family:'Lily Script One', cursive;
+    top: -107.5px;
+    left: 12px;
+    font-size: 150px;
+    color: rgba(255, 255, 255, 1);
+    font-weight:100;
+    padding:5px 10px;
+}
+
+/* Style the 'my name is' text */
+.my-name{
+    position:absolute;
+    color: white;
+    top: 170px;
+    left: 230px;
+    font-weight:400;
+    font-family: 'Source Code Pro', monospace;
+    font-size:26.5px;
+}
+
+/* Style the 'here is' text */
+.here-is{
+    position:absolute;
+    color:white;
+    top: 232.5px;
+    left: 402.5px;
+    font-family: 'Source Code Pro', monospace;
+    font-size:27px;
+    font-weight:400;
+}
+
+/* Style the 'a little about me' text */
+.little-about-me{
+    position:absolute;
+    color:white;
+    font-family:'Source Code Pro', monospace;
+    font-size:36px;
+    font-weight:400;
+    top:345px;
+    left:460px;
+}
+
+/* Style the about me paragraph */
+.about-me-paragraph{
+    position:absolute;
+    color:white;
+    font-family:'Source Code Pro', monospace;
+    font-size:17px;
+    font-weight:400;
+    top:445px;
+    left:75px;
+    width:1100px;
+}
