@@ -1,4 +1,6 @@
-
+.entire-screen{
+    height:5000px;
+}
 
 /* WELCOME SCREEN */
 
@@ -22,6 +24,7 @@
     left:830px;
     font-size:15px;
     text-decoration:none;
+    text-shadow:4px 4px 4px black;
 }
 
 /* Style the 'Welcome!' text */
@@ -34,6 +37,7 @@
     color: rgba(255, 255, 255, 1);
     font-weight:100;
     padding:5px 10px;
+    text-shadow:10px 10px 10px black;
 }
 
 /* Style the 'my name is' text */
@@ -45,6 +49,7 @@
     font-weight:400;
     font-family: 'Source Code Pro', monospace;
     font-size:26.5px;
+    text-shadow:4px 4px 4px black;
 }
 
 /* Style the 'here is' text */
@@ -56,6 +61,7 @@
     font-family: 'Source Code Pro', monospace;
     font-size:27px;
     font-weight:400;
+    text-shadow:4px 4px 4px black;
 }
 
 /* Style the 'a little about me' text */
@@ -67,6 +73,7 @@
     font-weight:400;
     top:345px;
     left:460px;
+    text-shadow:4px 4px 4px black;
 }
 
 /* Style the about me paragraph */
@@ -79,16 +86,17 @@
     top:445px;
     left:75px;
     width:1100px;
+    text-shadow:4px 4px 4px black;
 }
 
 
 /* PROJECT SCREEN */
 
 
+/* Style the entirety of the screen */
 .project-screen{
     position:absolute;
     background-color:white;
-    height:3000px;
 }
 
 .projects-text{
@@ -101,7 +109,7 @@
     left:480px;
 }
 
-.mct-text{
+.mcs-text{
     position:absolute;
     color:black;
     font-family:'Source Code Pro', monospace;
@@ -112,10 +120,8 @@
     width:600px;
 }
 
-.mct-logo{
+.mcs-logo{
     position:absolute;
-    top:900px;
-    border-color:hotpink;
     border-radius:50px;
     width:325px;
     top: 802px;
@@ -178,4 +184,118 @@
     font-family:'Lily Script One', cursive;
     font-size:50px;
     text-align:center;
+}
+
+
+/* SKILLS SCREEN */
+
+.skills-screen{
+    border:5px solid rgba(100, 100, 100, 1);
+    background-color:rgba(100, 100, 100, 1);
+    position:absolute;
+    top:1280px;
+    width:1250px;
+    height:2500px;
+    left:0px;
+}
+
+.skills-txt{
+    position:absolute;
+    top:5px;
+    left:520px;
+    color:white;
+    font-family:'Source Code Pro', monospace;
+    font-weight:400;
+    font-size:65px;
+}
+
+/* Python Box */
+.python-box{
+    background-color:white;
+    position:absolute;
+    top:235px;
+    left:45px;
+    width: 320px;
+    height:180px;
+    font-family:'Lily Script One', cursive;
+    text-align:center;
+    font-size:42px;
+    box-shadow:10px 10px 10px black
+}
+.python-img{
+    position:absolute;
+    width:175px;
+    height:110px;
+    top:300px;
+    left:120px;
+}
+
+/* Godot Box */
+.godot-box{
+    background-color:white;
+    position:absolute;
+    top:235px;
+    left:475px;
+    width:320px;
+    height:180px;
+    font-family:'Lily Script One', cursive;
+    text-align:center;
+    font-size:42px;
+    box-shadow:10px 10px 10px black
+}
+.godot-img{
+    position:absolute;
+    width:125px;
+    height:125px;
+    top:290px;
+    left:580px;
+}
+
+/* SQL Box */
+.sql-box{
+    background-color:white;
+    position:absolute;
+    top:235px;
+    left:904px;
+    width:320px;
+    height:180px;
+    font-family:'Lily Script One', cursive;
+    text-align:center;
+    font-size:42px;
+    box-shadow:10px 10px 10px black
+}
+.sql-img{
+    position:absolute;
+    width:90px;
+    height:110px;
+    top:300px;
+    left:1020px;
+}
+
+/* HTML/CSS Box */
+.html-box{
+    background-color:white;
+    position:absolute;
+    top:525px;
+    left:45px;
+    width:320px;
+    height:180px;
+    font-family:'Lily Script One', cursive;
+    text-align:center;
+    font-size:42px;
+    box-shadow:10px 10px 10px black
+}
+.html-img{
+    position:absolute;
+    width:150px;
+    height:150px;
+    top:570px;
+    left:80px;
+}
+.css-img{
+    position:absolute;
+    width:80px;
+    height:110px;
+    top:591.5px;
+    left:230px;
 }
