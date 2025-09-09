@@ -117,4 +117,65 @@
     top:900px;
     border-color:hotpink;
     border-radius:50px;
+    width:325px;
+    top: 802px;
+    left:466px;
+}
+
+.logo-bttn-explain{
+    position:absolute;
+    width:190px;
+    top:1111px;
+    left:532.5px;
+    font-family:'Source Code Pro', monospace;
+    color:black;
+    font-weight:400;
+    font-size:9px;
+}
+
+.what-box{
+    border:3px solid rgba(234, 234, 234, 1);
+    width:325px;
+    height:330px;
+    position:absolute;
+    top:770px;
+    left:0px;
+    background-color:rgba(234, 234, 234, 1);
+    font-family:'Lily Script One', cursive;
+    font-size:50px;
+    text-align:center;
+}
+
+.what-text{
+    font-size:16px;
+    position:absolute;
+    top:830px;
+    left:5px;
+    font-family:'Source Code Pro', monospace;
+    width:310px;
+    font-weight:400;
+    line-height: 0.95;
+}
+.how-text{
+    font-size:16px;
+    position:absolute;
+    top:830px;
+    left:905px;
+    font-family:'Source Code Pro', monospace;
+    width:310px;
+    font-weight:400;
+    line-height:.95;
+}
+
+.how-box{
+    border:3px solid rgba(234,234,234,1);
+    width:325px;
+    height:330px;
+    position:absolute;
+    top:770px;
+    left:900px;
+    background-color:rgba(234,234,234,1);
+    font-family:'Lily Script One', cursive;
+    font-size:50px;
+    text-align:center;
 }
