@@ -188,7 +188,7 @@
     position:absolute;
     top:1280px;
     width:1250px;
-    height:2500px;
+    height:1050px;
     left:0px;
 }
 
@@ -201,11 +201,6 @@
     font-weight:400;
     font-size:65px;
 }
-
-
-/* Left Difference: 430px */
-/* Top Difference: 290px */
-
 
 /* Python Box */
 .python-box{
@@ -401,4 +396,46 @@
     left:1020px;
     width:100px;
     height:100px;
+}
+
+
+/* Contact Me Screen */
+
+
+.contact-me-screen{
+    position:absolute;
+    top:2339px;
+    background-color:white;
+    left:0px;
+    width:1257px;
+    height:1000px;
+    text-align:center;
+}
+
+.contact-me-text{
+    font-family:'Source Code Pro', monospace;
+    font-weight:400;
+    font-size:65px;
+}
+
+/* Name Box */
+.name-box{
+    position:absolute;
+    top:205px;
+    left:175px;
+    background-color:rgba(234, 234, 234, 1);
+    font-family:'Source Code Pro', monospace;
+    width:225px;
+    height:125px;
+    border: 1px solid black;
+    font-size:30px;
+    font-weight:400;
+}
+.name-txt{
+    position:absolute;
+    top:270px;
+    left:235px;
+    font-family:'Source Code Pro', monospace;
+    font-size:15px;
+    font-weight:400;
 }
