@@ -1,6 +1,8 @@
+/* Web Version */
 .entire-screen{
-    height:5000px;
+    height:fit-content;
 }
+
 
 /* WELCOME SCREEN */
 
@@ -8,8 +10,8 @@
 /* Style the entirety of the welcome screen */
 .welcome-screen{
     position:absolute;
-    top:0px;
-    left:0px;
+    top:0rem;
+    left:0rem;
     width:1275px;
     height:600px;
     background-color: rgba(40, 40, 40, 0.88);
@@ -22,6 +24,29 @@
     font-weight:400;
     top:20px;
     left:830px;
+    font-size:15px;
+    text-decoration:none;
+    scroll-behavior:smooth;
+}
+
+.skills-screen-button{
+    position:absolute;
+    color:white;
+    font-family:'Source Code Pro', monospace;
+    font-weight:400;
+    top:20px;
+    left:980px;
+    font-size:15px;
+    text-decoration:none;
+}
+
+.contact-screen-button{
+    position:absolute;
+    color:white;
+    font-family:'Source Code Pro', monospace;
+    font-weight:400;
+    top:20px;
+    left:1115px;
     font-size:15px;
     text-decoration:none;
 }
@@ -87,7 +112,7 @@
 /* PROJECT SCREEN */
 
 /* Style the entirety of the screen */
-.project-screen{
+#project-screen{
     position:absolute;
     background-color:white;
 }
@@ -182,7 +207,7 @@
 
 /* SKILLS SCREEN */
 
-.skills-screen{
+#skills-screen{
     border:5px solid rgba(100, 100, 100, 1);
     background-color:rgba(100, 100, 100, 1);
     position:absolute;
@@ -291,6 +316,15 @@
     height:97px;
     top:603px;
     left:230px;
+}
+
+/* CSS Box */
+.css-box{
+    background-color:transparent;
+    color:transparent;
+}
+.css-img2{
+    opacity:0;
 }
 
 /* JavaScript Box */
@@ -402,7 +436,7 @@
 /* Contact Me Screen */
 
 
-.contact-me-screen{
+#contact-me-screen{
     position:absolute;
     top:2339px;
     background-color:white;
@@ -422,10 +456,10 @@
 .name-box{
     position:absolute;
     top:205px;
-    left:175px;
+    left:150px;
     background-color:rgba(234, 234, 234, 1);
     font-family:'Source Code Pro', monospace;
-    width:225px;
+    width:250px;
     height:125px;
     border: 1px solid black;
     font-size:30px;
@@ -434,8 +468,305 @@
 .name-txt{
     position:absolute;
     top:270px;
-    left:235px;
+    left:225px;
     font-family:'Source Code Pro', monospace;
     font-size:15px;
     font-weight:400;
+}
+
+/* Email Box */
+.email-box{
+    position:absolute;
+    top:205px;
+    left:510px;
+    font-family:'Source Code Pro', monospace;
+    background-color:rgba(234, 234, 234, 1);
+    width:250px;
+    height:125px;
+    border:1px solid black;
+    font-size:30px;
+    font-weight:400;
+}
+.email-txt{
+    position:absolute;
+    top:270px;
+    left:520px;
+    font-family:'Source Code Pro', monospace;
+    font-size:15px;
+    font-weight:400;
+}
+
+/* Location Box */
+.location-box{
+    position:absolute;
+    top:205px;
+    left:870px;;
+    font-family:'Source Code Pro', monospace;
+    background-color:rgba(234, 234, 234, 1);
+    width:250px;
+    height:125px;
+    border:1px solid black;
+    font-size:30px;
+    font-weight:400;
+}
+.location-txt{
+    position:absolute;
+    top:270px;
+    left:920px;
+    font-family:'Source Code Pro', monospace;
+    font-size:15px;
+    font-weight:400;
+}
+
+/* Github box */
+.github-box{
+    position:absolute;
+    top:400px;
+    left:150px;
+    font-family:'Source Code Pro', monospace;
+    background-color:rgba(234, 234, 234, 1);
+    width:250px;
+    height:125px;
+    border:1px solid black;
+    font-size:30px;
+    font-weight:400;
+}
+.github-txt{
+    position:absolute;
+    top:470px;
+    left:232.5px;
+    color:black;
+    font-family:'Source Code Pro', monospace;
+    font-size:15px;
+}
+
+/* Linked In Box */
+.linkedin-box{
+    position:absolute;
+    top:400px;
+    left:510px;
+    font-family:'Source Code Pro', monospace;
+    background-color:rgba(234,234,234,1);
+    width:250px;
+    height:125px;
+    border:1px solid black;
+    font-size:30px;
+    font-weight:400;
+}
+.linkedin-txt{
+    position:absolute;
+    top:470px;
+    left:580px;
+    color:black;
+    font-family:'Source Code Pro', monospace;
+    font-size:15px;
+}
+
+/* Resume Box */
+.resume-box{
+    position:absolute;
+    top:400px;
+    left:870px;
+    font-family:'Source Code Pro', monospace;
+    background-color:rgba(234,234,234,1);
+    width:250px;
+    height:125px;
+    border:1px solid black;
+    font-size:30px;
+    font-weight:400;
+}
+.resume-txt{
+    position:absolute;
+    top:470px;
+    left:950px;
+    color:black;
+    font-family:'Source Code Pro', monospace;
+    font-size:15;
+}
+
+
+/* Phone Version */
+
+
+
+@media (width<500px){
+    /* .welcome-screen{
+        width:500px;
+    } */
+
+    /* Welcome Screen */
+
+
+    .welcome-text{
+        font-size:75px;
+        top:-57px;
+        left:0px;
+    }
+
+    .my-name{
+        font-size:22.5px;
+        top:92.5px;
+        left:37.5px;
+    }
+
+    .here-is{
+        font-size:22.5px;
+        top:135px;
+        left:75px;
+    }
+
+    .little-about-me{
+        font-size:35px;
+        top:180px;
+        left:70px;
+    }
+
+    .about-me-paragraph{
+        font-size:14px;
+        top:260px;
+        left:10px;
+        width:455px;
+    }
+
+    .project-screen-button{
+        font-size:17px;
+        top:25px;
+        left:370px;
+        text-decoration:underline;
+    }
+
+    .skills-screen-button{
+        font-size:17px;
+        top:55px;
+        left:382.5px;
+        text-decoration:underline;
+    }
+
+    .contact-screen-button{
+        font-size:17px;
+        top:82.5px;
+        left:360px;
+        text-decoration:underline;
+    }
+
+
+    /* Projects Screen */
+
+
+    .projects-text{
+        font-size:45px;
+        top:590px;
+        left:130px;
+    }
+
+    .mcs-text{
+        font-size:22.5px;
+        top:710px;
+        left:125px;
+    }
+
+    .what-box{
+        top:800px;
+        left:-10px;
+        width:140px;
+        height:220px;
+        font-size:22.5px;
+    }
+
+    .what-text{
+        font-size:8.5px;
+        left:0px;
+        top:835px;
+        width:130px;
+    }
+
+    .mcs-logo{
+        top:800px;
+        left:145px;
+        width:170px;
+        height:150px;
+        border:1.5px solid black;
+        border-radius:0%;
+    }
+
+    .logo-bttn-explain{
+        top:970px;
+        left:150px;
+        line-height:2;
+        width:160px;
+    }
+
+    .how-box{
+        top:800px;
+        left:325px;
+        width:140px;
+        height:220px;
+        font-size:22.5px;
+    }
+
+    .how-text{
+        top:840px;
+        left:330px;
+        font-size:8.5px;
+        width:130px;
+    }
+
+
+    /* Skills Screen */
+    .skills-txt{
+        font-size:45px;
+        top:5px;
+        left:160px;
+    }
+
+    .python-box, .godot-box, .html-box, .sql-box, .django-box, .react-box, .spring-box, .java-box, .jscript-box{
+        width:175px;
+        height:125px;
+        font-size:25px;
+    }
+
+
+    /* Python Box */
+    .python-box{
+        top:180px;
+    }
+    .python-img{
+        top:230px;
+        left:80px;
+        width:100px;
+        height:60px;
+    }
+
+    /* Godot Box */
+    .godot-box{
+        top:180px;
+        left:250px;
+    }
+
+    .godot-img{
+        top:225px;
+        left:305px;
+        width:70px;
+        height:70px;
+    }
+
+    /* HTML/CSS Box */
+    .html-box{
+        top:350px;
+        left:45px;
+    }
+    .html-img{
+        top:400px;
+        left:70px;
+        width:55px;
+        height:65px;
+    }
+    .css-img{
+        top:400px;
+        left:140px;
+        width:55px;
+        height:65px;
+    }
+
+
 }
