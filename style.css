@@ -301,7 +301,7 @@
     font-family:'Lily Script One', cursive;
     text-align:center;
     font-size:42px;
-    box-shadow:10px 10px 10px black
+    box-shadow:10px 10px 10px black;
 }
 .html-img{
     position:absolute;
@@ -316,6 +316,15 @@
     height:97px;
     top:603px;
     left:230px;
+}
+
+/* HTML Box */
+.html-box2{
+    background-color:transparent;
+    color:transparent;
+}
+.html-img2{
+    opacity:0;
 }
 
 /* CSS Box */
@@ -442,7 +451,7 @@
     background-color:white;
     left:0px;
     width:1257px;
-    height:1000px;
+    height:600px;
     text-align:center;
 }
 
@@ -713,13 +722,17 @@
 
 
     /* Skills Screen */
+    .skills-screen{
+        top:300px;
+    }
+
     .skills-txt{
         font-size:45px;
         top:5px;
         left:160px;
     }
 
-    .python-box, .godot-box, .html-box, .sql-box, .django-box, .react-box, .spring-box, .java-box, .jscript-box{
+    .python-box, .godot-box, .html-box, .sql-box, .django-box, .react-box, .spring-box, .java-box, .jscript-box, .html-box2, .css-box{
         width:175px;
         height:125px;
         font-size:25px;
@@ -752,21 +765,202 @@
 
     /* HTML/CSS Box */
     .html-box{
+        background-color:transparent;
+        color:transparent;
+    }
+    .html-img{
+        opacity:0;
+    }
+
+    .html-box2{
+        color:black;
+        background-color:white;
+        position:absolute;
+        font-family:'Lily Script One', cursive;
+        text-align:center;
+        box-shadow:10px 10px 10px black;
         top:350px;
         left:45px;
     }
-    .html-img{
+    .html-img2{
+        position:absolute;
         top:400px;
-        left:70px;
+        left:105px;
         width:55px;
         height:65px;
+        opacity:100;
     }
+
     .css-img{
+        opacity:0;
+    }
+
+    .css-box{
+        color:black;
+        background-color:white;
+        font-family:'Lily Script One', cusrive;
+        text-align:center;
+        box-shadow:10px 10px 10px black;
+        position:absolute;
+        top:350px;
+        left:250px;
+    }
+
+    .css-img2{
+        position:absolute;
         top:400px;
-        left:140px;
+        left:310px;
         width:55px;
         height:65px;
+        opacity:100;
+    }
+
+    /* JavaScript Box */
+    .jscript-box{
+        top:520px;
+        left:45px
+    }
+    .jscript-img{
+        top:567.69px;
+        left:75px;
+        width:120px;
+        height: 70px;
+    }
+
+    /* React Box */
+    .react-box{
+        top:520px;
+        left:250px;
+    }
+    .react-img{
+        top:565px;
+        left:300px;
+        width:75px;
+        height:75px;
+    }
+
+    /* Django Box */
+    .django-box{
+        left:45px;
+        top:690px;
+    }
+    .django-img{
+        top:740px;
+        left:97.5px;
+        width:70px;
+        height:70px;
+    }
+
+    /* Java Box */
+    .java-box{
+        top:690px;
+        left:250px;
+    }
+    .java-img{
+        top:730px;
+        left:295px;
+        width:80px;
+        height:80px;
+    }
+    
+    /* Spring Boxl */
+    .spring-box{
+        top:860px;
+        left:45px;
+    }
+    .spring-img{
+        top:905px;
+        left:95px;
+        width:75px;
+        height:75px;
+    }
+
+    /* SQL Box */
+    .sql-box{
+        top:860px;
+        left:250px;
+    }
+    .sql-img{
+        top:905px;
+        left:305px;
+        width:70px;
+        height:70px;
     }
 
 
+    /* Contact Screen */
+
+    .contact-me-text{
+        position:absolute;
+        top:20px;
+        left:100px;
+        font-size:45px;
+    }
+
+    .name-box, .email-box, .location-box, .linkedin-box, .github-box, .resume-box{
+        width:210px;
+        height:90px;
+        font-size:20px;
+    }
+    .name-txt, .email-txt, .location-txt, .linkedin-txt, .github-txt, .resume-txt{
+        font-size:13px;
+    }
+
+    /* Name Box */
+    .name-box{
+        left:15px;
+    }
+    .name-txt{
+        left:75px;
+        top:255px;
+    }
+
+    /* Email Box */
+    .email-box{
+        left:250px;
+    }
+    .email-txt{
+        left:257.5px;
+        top:255px;
+    }
+
+    /* Location Box */
+    .location-box{
+        left:15px;
+        top:330px;
+    }
+    .location-txt{
+        top:380px;
+        left:55px;
+    }
+
+    /* Github Box */
+    .github-box{
+        left:250px;
+        top:330px;
+    }
+    .github-txt{
+        top:390px;
+        left:320px;
+    }
+
+    /* Linked In Box */
+    .linkedin-box{
+        top:460px;
+        left:15px;
+    }
+    .linkedin-txt{
+        top:520px;
+        left:70px;
+    }
+
+    /* Resume Box */
+    .resume-box{
+        top:460px;
+        left:250px;
+    }
+    .resume-txt{
+        top:520px;
+        left:320px;
+    }
 }
